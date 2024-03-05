@@ -7,7 +7,7 @@ marketplace_ref: {
   listing: "github-v2"
   version: "2.0.3"
   models: ["block-github-v2"]
-  override_constant: CONNECTION_NAME { value:"github-connection" }
+  override_constant: CONNECTION_NAME { value:"looker-private-demo" }
   override_constant: GITHUB_SCHEMA { value:"source_github" }
   override_constant: COMPANY_DOMAIN { value:"highspew" }
 }
