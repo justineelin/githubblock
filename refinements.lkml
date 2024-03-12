@@ -19,3 +19,9 @@ include: "//github-v2/**/*.explore.lkml"
 #       label: "Aircraft Simplified"
 #     }
 #
+
+view: +issue {
+  dimension: locked {
+    description: "Testing Locked"
+  }
+}
